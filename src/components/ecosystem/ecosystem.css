@@ -1,0 +1,46 @@
+.esy{
+    padding: 3rem 0rem 3rem 100px;
+}
+
+.esy-cnt{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+.esy-itm{
+    flex: 1;
+}
+
+.esy-itm-img{
+    flex: 1;
+}
+
+.esy-itm-img img{
+    width: 100%;
+
+}
+
+.esy-itm > div {
+    margin-bottom: 40px;
+}
+
+.esy-itm > div p{
+    color:#5B5876;;
+}
+
+
+@media screen and (max-width: 1050px){
+    .esy{
+        padding: 2rem 1rem;
+    }
+
+    .esy-cnt{
+        flex-direction: column;
+    }
+
+    .esy-itm-img img{
+        display: none;
+    }
+
+}

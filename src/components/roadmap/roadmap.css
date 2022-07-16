@@ -1,0 +1,44 @@
+.rdmap{
+    background-image: url('../../assets/rdmap.svg');
+    background-position: top;
+    background-size: cover;
+    padding: 3rem 1rem;
+
+}
+.rdmap-cnt{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.rdmap-itm-cnt{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.rdmap-itm{
+    padding: 1rem 2rem;
+    border-top: 4px solid #00B4D8;;
+    background-color: white;
+}
+
+.rdmap-itm > ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 5px;
+    color: #5B5876;
+}
+
+@media screen and (max-width: 650px) {
+    .rdmap-itm-cnt{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .rdmap-cnt{
+        padding: 2rem 1rem;
+    }
+}

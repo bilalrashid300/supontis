@@ -1,0 +1,24 @@
+.tkr-dstr{
+    background-color: #fff;
+    padding: 5rem 1rem;
+}
+
+.tkr-dstr-cont{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tkr-mbl{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+
+    .tkr-mbl{
+        display: block;
+    }
+
+    .tkr-web{
+        display: none;
+    }
+}

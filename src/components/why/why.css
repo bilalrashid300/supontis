@@ -1,0 +1,54 @@
+.why{
+    background-color: #0C0248;
+    padding: 3rem 1rem;
+}
+
+.why-cnt{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.why-cnt > h2{
+    text-align: center;
+    color: white;
+}
+.why-itm-cnt{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+
+}
+
+.why-itm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    grid-gap: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding:30px;
+}
+
+.why-itm > h3{
+    color: white;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+
+}
+
+.why-itm > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #AAA7C4;
+    margin: 0px;
+    text-align: start;
+
+}
+
